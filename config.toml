@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 baseURL = "https://yourwebsitenamegoeshere.com/"
 languageCode = "RU-ru"
 title = "FPVishera"
@@ -50,3 +51,9 @@ identifier = "categories"
 name = "Навигация по тегам"
 url = "/categories"
 weight = 1
+=======
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-theme-codex"
+>>>>>>> 40d53a0c7e120f83d13b55e226c0296e83816a29
