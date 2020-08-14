@@ -1,0 +1,52 @@
+baseURL = "https://yourwebsitenamegoeshere.com/"
+languageCode = "RU-ru"
+title = "FPVishera"
+theme = "kiera"
+copyright = "Copyright &copy; 2020 - Baharev Nickolay"
+canonifyurls = true
+paginate = 3
+
+pygmentsCodeFences = true
+disqusShortname = "" #Disqus shortname
+googleAnalytics = "" #Google Analytics ID
+
+[author]
+    name = "baharev"           #Author name
+    github = "czegevarra"         #Github username
+    #gitlab = ""         #Gitlab username
+    #linkedin = ""       #LinkedIn username
+    #facebook = ""       #Facebook username
+    #twitter = ""        #Twitter username
+    instagram = "baharev_np"      #Instagram username
+    #stackoverflow = ""  #StackOverflow username
+    #devto = ""          #Dev.to username
+
+[params]
+    tagline = "Изучаю FPV+Arducopter с нуля. Цель - постройка дальнолета для видеосъемки."
+    customCSS = []  #Optional Customised CSS
+    disableDarkModeCSS = false # disables css style for users using dark-mode
+    #description = ""
+    #images = [""] #This is used for opengraph/twitter cards.
+    #favicon = ""
+    #utterancesRepo = "username/repository"
+    #utterancesIssueTerm = "pathname"
+    homepageLength = 10
+    #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
+    #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
+    #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
+    #google_fonts = ["Staatliches"] # Adds additional google fonts
+    #disableDarkModeCSS = false # disables css style for users using dark-mode
+
+#uncomment to enable the Tags link on the main toolbar
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags"
+weight = 1
+
+# uncomment to enable the Categories link on the main toolbar
+[[menu.main]]
+identifier = "categories"
+name = "Навигация по тегам"
+url = "/categories"
+weight = 1
